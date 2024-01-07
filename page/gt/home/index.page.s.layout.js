@@ -6,7 +6,7 @@ import { px } from "@zos/utils";
 export const { width: DEVICE_WIDTH, height: DEVICE_HEIGHT } = getDeviceInfo();
 
 export const TEXT_STYLE = {
-  text: getText("appName"),
+  // text: getText("appName"),
   x: px(42),
   y: px(200),
   w: DEVICE_WIDTH - px(42) * 2,
